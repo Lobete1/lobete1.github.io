@@ -1,0 +1,31 @@
+.decimal {
+	font-family: sans-serif;
+	font-weight: 100;
+	color: black;
+}
+
+.decimal:hover {
+	font-family: sans-serif;
+	font-weight: 600;
+	color: red;
+	font-size: 40px;
+}	
+
+
+#binario {
+	font-family: calibri;
+	color: grey;
+}
+
+.binario {
+	font-family: sans-serif;
+	font-weight: 100;
+	color: black;
+}
+
+.binario:hover {
+	font-family: sans-serif;
+	font-weight: 600;
+	color: blue;
+	font-size: 40px;
+}
