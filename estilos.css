@@ -1,3 +1,8 @@
+#decimal {
+	font-family: calibri;
+	color: grey;
+}
+
 .decimal {
 	font-family: sans-serif;
 	font-weight: 100;
@@ -10,6 +15,7 @@
 	color: red;
 	font-size: 40px;
 }	
+
 
 
 #binario {
