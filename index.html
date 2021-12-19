@@ -3,10 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>Calculadora</title>
+	<!-- Bueno si estas revisando el codigo pues te quiero agradecer el que te importe un poquito lo que trato de hacer :), y espero que disfutes de este proyecte fresco como una lechuga xd -->
 </head>
 <body>
 
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<!-- DEcimAleSmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+<h1 id="decimal">--EN DECIMAl--</h1>
 
 <!-- SUMA -->
 
@@ -19,13 +24,15 @@
 	let resultadoSuma = sumandos[0] + sumandos[1];
 	
 	alert('el resultado es ' + resultadoSuma);
+
 	if(resultadoSuma == 13){
 		let respuestaJ = [prompt('aqui vamos')];
 
 		if(respuestaJ == 'mientras mas me la mamas mas me crece'){
 			alert('no crees que es demasiado infantil?');
 		}
-	}">SUMA</h1>
+	}
+	">SUMA</h1>
 
 <!-- RESTA -->
 
@@ -97,11 +104,13 @@
 	resultadoRaizCuadrada = Math.sqrt(raiz);
 
 	alert('el resultado es ' + resultadoRaizCuadrada)">RAIZ CUADRADA</h1>
-	
+
 <!-- PROMEDIO -->
 
 	<h1 class='decimal' onclick="
 	let promedioConfirmacion = [prompt('De cuantos numeros va a hacer tu promedio')]
+
+	//OPTIMIZALO
 
 	if(promedioConfirmacion == '2') {
 		let promedio2a = [prompt('Dime el primer numero')];
@@ -116,13 +125,12 @@
 		alert('el promedio es ' + promedio2R)
 			} 
 			
-// リᔑ↸ᔑ ᒷᓭ ⍊ᒷ∷↸ᔑ↸ ℸ ̣ 𝙹↸𝙹 ᒷᓭℸ ̣ ᔑ !¡ᒷ∷ᒲ╎ℸ ̣ ╎↸𝙹
-				     
-				     
 		if(promedioConfirmacion == '3') {
 			let promedio3a = [prompt('Dime el primer numero')];
 			let promedio3b = [prompt('Dime el sugundo numero')];
 			let promedio3c = [prompt('Dime el tercer numero')];
+
+// リᔑ↸ᔑ ᒷᓭ ⍊ᒷ∷↸ᔑ↸ ℸ ̣ 𝙹↸𝙹 ᒷᓭℸ ̣ ᔑ !¡ᒷ∷ᒲ╎ℸ ̣ ╎↸𝙹
 
 			promedio3a = parseInt(promedio3a);
 			promedio3b = parseInt(promedio3b);
@@ -267,7 +275,37 @@
 
 			alert('el resultado es ' + promedioR9);
 		}
-				     
+
+		if(promedioConfirmacion == '10') {
+			let promedio10a = [prompt('Dime el primer numero')]
+			let promedio10b = [prompt('Dime el segundo numero')];
+			let promedio10c = [prompt('Dime el tercer numero')];
+			let promedio10d = [prompt('Dime el cuarto numero')];
+			let promedio10e = [prompt('Dime el quinto numero')];
+			let promedio10f = [prompt('Dime el sexto numero')];
+			let promedio10g = [prompt('Dime el septimo numero')];
+			let promedio10h = [prompt('Dime el octavo numero')];
+			let promedio10i = [prompt('Dime el noveno numero')];
+			let promedio10j = [prompt('Dime el decimo numero')];
+
+			promedio10a = parseInt(promedio10a);
+			promedio10b = parseInt(promedio10b);
+			promedio10c = parseInt(promedio10c);
+			promedio10d = parseInt(promedio10d);
+			promedio10e = parseInt(promedio10e);
+			promedio10f = parseInt(promedio10f);
+			promedio10g = parseInt(promedio10g);
+			promedio10h = parseInt(promedio10h);
+			promedio10i = parseInt(promedio10i);
+			promedio10j = parseInt(promedio10j);
+
+			let promedio10R = promedio10a + promedio10b + promedio10c + promedio10d + promedio10e + promedio10f + promedio10g + promedio10h + promedio10i + promedio10j;
+
+			promedio10R = promedio10R / 10;
+
+			alert('el resultado es ' + promedio10R);
+		}
+
 		if(promedioConfirmacion == 'macarrones'){
 			alert('con queso?')
 		}
@@ -287,10 +325,11 @@
 		if(promedioConfirmacion == 'que la muerte te otorgue'){
 			alert('la paz que buscabas')
 		}
-				     ">PROMEDIO</h1>
-	
 
-<!-- BiNaRiOs -->
+		
+		">PROMEDIO</h1>
+
+<!-- BiNaRiOsmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
 
 	<h1 id="binario">--EN BINARIO--</h1>
 
@@ -411,6 +450,7 @@
 	raizBinaria = raizBinaria.toString(2)
 
 	alert('el resultado es ' + raizBinaria)">RAIZ CUADRADA BINARIO</h1>
+
 <!-- PROMEDIO BINARIA -->
 
 <h1 class='binario' onclick="
@@ -628,7 +668,6 @@ if(promedioConfirmacion == '10') {
 		}
 
 	">PROMEDIO BINARIO</h1>
-
 
 </body>
 </html>
