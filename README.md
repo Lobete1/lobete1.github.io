@@ -1,3 +1,3 @@
 # lobete1.github.io
 
-pagina web
+una pagina con mucho JavaScript y pokito CSS a y ademas es una calculadora
