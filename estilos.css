@@ -1,3 +1,8 @@
+.palabrasG {
+	font-family: sans-serif;
+	font-weight: 100;
+	color: black;
+}
 #decimal {
 	font-family: calibri;
 	color: grey;
@@ -33,5 +38,23 @@
 	font-family: sans-serif;
 	font-weight: 600;
 	color: blue;
+	font-size: 40px;
+}
+
+#hexadecimal {
+	font-family: calibri;
+	color: grey;
+}
+
+.hexadecimal {
+	font-family: sans-serif;
+	font-weight: 100;
+	color: black;
+}
+
+.hexadecimal:hover {
+	font-family: sans-serif;
+	font-weight: 600;
+	color: green;
 	font-size: 40px;
 }
