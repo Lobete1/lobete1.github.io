@@ -1,3 +1,3 @@
 # lobete1.github.io
 
-una pagina con mucho JavaScript y pokito CSS a y ademas es una calculadora
+es una pagina web basada en JavaScript para el codigo y CSS para lo "visual
