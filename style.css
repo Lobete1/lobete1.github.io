@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to bottom, rgb(77, 77, 77), black);
+}
+
+#textbott {
+    font-size: 400%;
+}
+
+#middle {
+    font-size: 150;
+}
+
+.estandar {
+    font-family: Arial;
+    color: white;
+}
+
+#More {
+    text-align: center;
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 105, 105);
+    cursor: pointer;
+    background-position: 19%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkgray;
+    cursor: pointer;
+
+}
+
+#arriba {
+    text-align: center;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 90%;
+    box-sizing: border-box;
+}
