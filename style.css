@@ -14,14 +14,16 @@ body {
     font-family: Arial;
     color: white;
 }
+#More1 {
+    text-align: center;
+}
 
-#More {
+#More2 {
     text-align: center;
     font-family: Arial;
     color: rgb(255, 255, 255);
     background-color: rgb(105, 105, 105);
     cursor: pointer;
-    background-position: 19%;
 }
 
 a {
@@ -39,6 +41,5 @@ a:hover {
     text-align: center;
     background-position: 0% 0%;
     position: fixed;
-    bottom: 90%;
     box-sizing: border-box;
 }
